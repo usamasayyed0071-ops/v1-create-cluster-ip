@@ -1,0 +1,9 @@
+# kubectl apply -f deployment.yml
+# kubectl apply -f service.yml
+
+# Test Inside Cluster
+# kubectl run test-pod --image=busybox -it --rm -- sh
+  
+   Inside pod:
+#  wget -qO- nginx-clusterip
+nginx body page will show over here
