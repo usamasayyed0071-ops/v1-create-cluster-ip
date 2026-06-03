@@ -1,0 +1,6 @@
+1 kubectl apply -f service.yml
+2 kubectl get svc
+3 past this on first teminal were you are working
+  kubectl port-forward svc/nginx-nodeport 8080:80
+4 open second terminal and run this it showing the body of nginx
+ curl http://localhost:8080
